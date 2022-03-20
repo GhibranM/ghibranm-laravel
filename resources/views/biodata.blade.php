@@ -10,8 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-        <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css" >
+        <link href="{{ asset('css/style2.css') }}" rel="stylesheet">
 
 </head>
 <body>
@@ -35,11 +34,9 @@
           </ul>
         </div>
       </nav>
-    <section class="Home" id="home">
 
-    
-
-<script src="js/jquery-3.6.0.min.js"></script>
+    <section class="biodata" id="biodata">
+        <script src="js/jquery-3.6.0.min.js"></script>
     <div class="hero">
 
         <div class="logo">
@@ -55,12 +52,20 @@
         </div>
 
         <div class="content">
-        <h1>SELAMAT DATANG</h1>
-        <p> Dibiodata Saya "GHIRBAN MUHAMMAD"
+        <h1>GHIBRAN MUHAMMAD</h1>
+        <p> TTL        : Blitar, 30 November 2000 <br>
+            Alamar    : Desa Kedungdowo kec Kaliwungu Kudus Jateng<br>
+            Agama     : Islam<br>
+            Kelamin   : Laki - Laki<br>
+            Pekerjaan : Pelajar/Mahasiswa<br>
         </p>
         <div class="btn" id="playBtn">
             <img src="{{ asset('img/play.png') }}" id="icon">Watch Video
         </div>
+        </div>
+
+        <div class="Pro">
+            <img src="{{ asset('img/gm.jpg') }}">
         </div>
 
     </div>

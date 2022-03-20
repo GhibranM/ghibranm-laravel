@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a {
+    text-decorations: none; 
+    font-size: 20px; 
+    font-family: sans-serif;
+    padding: 14px 10px;
+}
+
+.navbar ul {
+    padding: 0px;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
+}
+
+.navbar li a {
+    background: #222;
+    color: #d4d4d4;
+}
+
+.navbar li a:hover {
+    background: #4da4ff;
+    color: #fff;
+}
+.navbar {
+    background: #222;
+    height: 50px;
+}
+
+.navbar-brand {
+    position:absolute;
+    left: 1600px;
+    color: #fff;
+}

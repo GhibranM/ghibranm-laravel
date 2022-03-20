@@ -10,8 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-        <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css" >
+        <link href="{{ asset('css/style3.css') }}" rel="stylesheet">
 
 </head>
 <body>
@@ -35,34 +34,25 @@
           </ul>
         </div>
       </nav>
-    <section class="Home" id="home">
 
-    
-
-<script src="js/jquery-3.6.0.min.js"></script>
+    <section class="komentar" id="komentar">
+        <script src="js/jquery-3.6.0.min.js"></script>
     <div class="hero">
 
-        <div class="logo">
-            <img src="{{ asset('img/logo2.png') }}">
-        </div>
-
-        <div class="sidebar">
-            <div class="text-box">
-                <h1>MOON PROJECT</h1>
-                <h4>PREMIUM QUALITY</h4>
-                <div class="line"></div>
-            </div>
-        </div>
-
-        <div class="content">
-        <h1>SELAMAT DATANG</h1>
-        <p> Dibiodata Saya "GHIRBAN MUHAMMAD"
-        </p>
-        <div class="btn" id="playBtn">
-            <img src="{{ asset('img/play.png') }}" id="icon">Watch Video
-        </div>
-        </div>
-
+        <h1>KOMENTAR</h1>
+        <br>
+        Komentar dan saran anda sangat kami butuhkan<br>
+        untuk meningkatkan kualitas situs kami
+        <br>
+        <hr>
+        <pre>
+            Nama Anda   : <input type="text" name="nama" size="25" maxlength="50">
+            Email Anda  : <input type="text" name="nama" size="25" maxlength="50">
+            Komentar    : <textarea name="Komentar" cols="50" rows="5"></textarea>
+        </pre>
+        <input type="submit" value="Kirim">
+        <input type="reset" value="batal">
+ 
     </div>
 </section>
 </body>

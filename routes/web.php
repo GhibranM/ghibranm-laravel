@@ -19,3 +19,12 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
+Route::get('/biodata', function () {
+    return view('biodata');
+});
+Route::get('/nav', function () {
+    return view('navbar');
+});
+Route::get('/komentar', function () {
+    return view('komentar');
+});
