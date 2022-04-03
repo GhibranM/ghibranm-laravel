@@ -108,10 +108,7 @@
     display: inline;
 }
 
-.navbar li a {
-    background: #222;
-    color: #d4d4d4;
-}
+
 
 .navbar li a:hover {
     background: #4da4ff;

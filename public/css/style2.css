@@ -117,18 +117,14 @@
     display: inline;
 }
 
-.navbar li a {
+.navbar {
     background: #222;
-    color: #d4d4d4;
+    height: 50px;
 }
 
 .navbar li a:hover {
     background: #4da4ff;
     color: #fff;
-}
-.navbar {
-    background: #222;
-    height: 50px;
 }
 
 .navbar-brand {

@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ghibranController;
+use App\Http\Controllers\biodataController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,18 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/home', function () {
-    return view('home');
-});
-Route::get('/biodata', function () {
-    return view('biodata');
-});
-Route::get('/nav', function () {
-    return view('navbar');
-});
-Route::get('/komentar', function () {
-    return view('komentar');
-});
+Route::get('/', [ghibranController::class, 'index']);
+
+Route::get('/home', [ghibranController::class, 'home']);
+
+Route::get('/biodata', [biodataController::class, 'biodata']);
+
+Route::get('/komentar', [ghibranController::class, 'komentar']);
